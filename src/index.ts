@@ -1,5 +1,4 @@
 import { ApolloServer } from 'apollo-server';
-
 // eslint-disable-next-line node/no-unsupported-features/es-syntax
 import { createConnection } from 'typeorm';
 import 'reflect-metadata';

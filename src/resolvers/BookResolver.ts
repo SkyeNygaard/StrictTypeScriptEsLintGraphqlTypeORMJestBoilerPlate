@@ -1,5 +1,5 @@
 import {
-  Resolver, Query, Mutation, Arg,
+  Arg, Mutation, Query, Resolver,
 } from 'type-graphql';
 import { Book } from '../models/Book';
 import { CreateBookInput } from '../inputs/CreateBookInput';

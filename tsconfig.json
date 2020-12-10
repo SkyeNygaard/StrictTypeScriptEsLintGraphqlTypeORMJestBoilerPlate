@@ -12,18 +12,20 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs", // This is required to be this way in order to use imports
+    "module": "commonjs",
+    // This is required to be this way in order to use imports
     "moduleResolution": "node",
     "resolveJsonModule": true,
-  // Ensure that Babel can safely transpile files in the TypeScript project
+    // Ensure that Babel can safely transpile files in the TypeScript project
     "isolatedModules": true,
-//    "noEmit": true,
-      // Ensure that .d.ts files are created by tsc, but not .js files
-  "declaration": true,
-  "emitDeclarationOnly": true,
+    //    "noEmit": true,
+    // Ensure that .d.ts files are created by tsc, but not .js files
+    "declaration": true,
+    "emitDeclarationOnly": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "strictPropertyInitialization": false // for typeorm
+    "strictPropertyInitialization": false
+    // for typeorm
   },
   "include": [
     "src/",
